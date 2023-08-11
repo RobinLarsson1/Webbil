@@ -1,0 +1,34 @@
+.contact-ad-sect {
+	background-color: #FFC927;
+	white-space: normal; /* Tillåt wrap av texten */
+  word-wrap: break-word;
+}
+.div-ad {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 100%;
+	padding: 1em 0em;
+}
+.question-icon {
+	font-size: 48px;
+}
+.kont-span {
+	font-weight: bold;
+	font-size: 20px;
+}
+.kont-span:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 930px) {
+	.contact-ad-sect {
+		height: 15em;
+	}
+	.div-ad {
+		flex-direction: column;
+		height: 15em;
+		text-align: center;
+	}
+}
