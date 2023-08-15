@@ -18,7 +18,7 @@
 	margin: 2em 0em;
 	font-family: 'Inter', sans-serif;
 }
-.car-card {
+.latest-card {
 	display: flex;
 	flex-direction: column;
 	align-items: center;

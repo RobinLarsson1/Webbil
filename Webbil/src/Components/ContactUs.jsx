@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import '../styles/ContactUs.css';
+import omOssImg from '../img/omossimg.jpeg'
 
 const ContactUs = () => {
 	const form = useRef();
@@ -36,6 +36,10 @@ const ContactUs = () => {
 
 	return (
 		<section className="contact-us">
+			<div className="about-img-container">
+                <img src={omOssImg} alt="about-us-image" className="contact-img" />
+            </div>
+			<div className="contact-us-div">
 			<h1 className="contact-h1">Kontakta oss</h1>
 			<p className="contact-p">Fyll i formuläret så hör vi av oss!</p>
 			{/* Visa bekräftelsemeddelandet om meddelandet har skickats */}
@@ -73,6 +77,7 @@ const ContactUs = () => {
 					</div>
 				</form>
 			)}
+			</div>
 		</section>
 	);
 };

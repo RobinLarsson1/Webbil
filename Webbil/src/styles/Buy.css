@@ -1,0 +1,37 @@
+.buy-car-sect {
+	height: auto;
+}
+.buy-car-img {
+	width: 20em;
+}
+.buy-h1 {
+	font-size: 40px;
+	color: #FFC927;
+	font-family: 'Inter', sans-serif;
+}
+.buy-text-div {
+	text-align: center;
+	padding: 2em;
+}
+.car-card-div {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+}
+.car-card {
+	display: flex;
+	flex-direction: row;
+	width: 40em;
+	justify-content: space-between;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+	padding: 1em;
+	margin: 2em;
+	cursor: pointer;
+}
+.car-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 10em;
+}

@@ -45,7 +45,7 @@ const Header = () => {
 			) : (
 				<div className="link-div">
 					<ul className="links">
-					<Link to="/bilarna" className="link">Köp bil</Link>
+					<Link to="/bilarna" className="link">Våra bilar</Link>
 					<Link to="/salg" className="link">Sälj bil</Link>
 					<Link to="/omoss" className="link">Om oss</Link>
 					<Link to="/kontakt" className="link">Kontakt</Link>

@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import '../styles/ContactUs.css';
+import '../styles/ContactUs.css'
+import sellImg from '../img/koperdinbil.jpeg'
 
 const Sell = () => {
 	const form = useRef();
@@ -35,12 +36,15 @@ const Sell = () => {
 			});
 	};
 	return (
-		<section className="contact-us">
+		<section className="contact-us-sell">
+			<div className="about img-container">
+				<img src={sellImg} alt="about-us-image" className='sell-img' />
+			</div>
+			<div className="sell-div">
 			<h1 className="contact-h1">Värderingsformulär</h1>
 			<p className="contact-p">1. Fyll i formuläret</p>
 			<p className="contact-p">2. Vi kontaktar dig för ett schysst bud samma dag</p>
 			<p className="contact-p">3. Du väljer om du vill gå vidare och då köper vi din bil, snabbt och tryggt hemma hos dig eller om du väljer att lämna den till vår depå i Karlstad.</p>
-			
 			{messageSent ? (
 				<p className="confirmation-text">Meddelande skickat!</p>
 			) : (
@@ -79,6 +83,7 @@ const Sell = () => {
 					</div>
 				</form>
 			)}
+			</div>
 		</section>
 	);
 };
