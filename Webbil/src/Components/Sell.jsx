@@ -37,8 +37,12 @@ const Sell = () => {
 	};
 	return (
 		<section className="contact-us-sell">
-			<div className="about img-container">
-				<img src={sellImg} alt="about-us-image" className='sell-img' />
+			<img src={sellImg} alt="about-us-image" className="about-img" />
+            <div className="about-content">
+                <div className="about-head">
+                    <h1 className="about-h1">Sälj din bil till oss enkelt online</h1>
+                </div>
+				
 			</div>
 			<div className="sell-div">
 			<h1 className="contact-h1">Värderingsformulär</h1>

@@ -9,9 +9,7 @@ import { BsFacebook } from 'react-icons/bs';
 const AboutUs = () => {
     return (
         <section className="about">
-            <div className="about-img-container">
                 <img src={omOssImg} alt="about-us-image" className="about-img" />
-            </div>
             <div className="about-content">
                 <div className="about-head">
                     <h1 className="about-h1">Om <span className="about-span">Webbil</span></h1>
