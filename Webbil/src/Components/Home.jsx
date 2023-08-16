@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/Home.css';
-import heroImg from '../img/solbild.jpeg'
+import heroImg from '../img/solbild-resize.jpeg'
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {

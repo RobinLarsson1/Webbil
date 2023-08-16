@@ -1,6 +1,6 @@
 .header-logo {
 	width: 10em;
-	
+	padding: 1em;
 }
 .header-main {
 	display: flex;

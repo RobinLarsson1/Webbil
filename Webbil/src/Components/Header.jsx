@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from '../img/logo.jpg';
+import Logo from '../img/Loggautanbakgrund.png';
 import '../styles/Header.css';
 import { useRecoilState } from "recoil";
 import { isMobileState } from "../Data/atom.js";

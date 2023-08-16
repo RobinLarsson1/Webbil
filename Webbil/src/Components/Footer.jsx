@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/Footer.css';
-import Logo from "../img/logo.jpg"
+import Logo from "../img/Loggautanbakgrund.png"
 import { BiCopyright } from 'react-icons/bi';
 
 

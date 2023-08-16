@@ -13,7 +13,8 @@
 	justify-content: center;
 }
 .footer-logo {
-	width: 10em;
+	width: 8em;
+	margin: 2em;
 }
 .rights-p {
 	font-family: 'Inter', sans-serif;

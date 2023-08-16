@@ -1,5 +1,5 @@
 import React from "react";
-import omOssImg from '../img/omossimg.jpeg'
+import omOssImg from '../img/omossimg-resize.jpeg'
 import '../styles/about.css'
 import { BsFacebook } from 'react-icons/bs';
 

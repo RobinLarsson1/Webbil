@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/Selling.css';
 import { useNavigate } from "react-router-dom";
-import sellingImg from '../img/bil3.jpeg'
+import sellingImg from '../img/bil3-resize.jpeg'
 const Selling = () => {
 	const navigate = useNavigate();
 

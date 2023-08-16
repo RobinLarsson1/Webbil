@@ -8,6 +8,7 @@ import ContactUs from '../Components/ContactUs.jsx';
 import Buy from '../Components/Buy.jsx';
 import Sell from '../Components/Sell.jsx';
 import AboutUs from '../Components/AboutUs.jsx';
+import IndCar from '../Components/IndCar.jsx';
 
 
 export const router = createHashRouter([
@@ -41,6 +42,10 @@ export const router = createHashRouter([
             {
                 path: 'kontakt',
                 element: <ContactUs />
+            },
+            {
+                path: 'indcar',
+                element: <IndCar />
             },
         ],
     },
