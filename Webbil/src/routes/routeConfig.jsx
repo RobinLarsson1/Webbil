@@ -44,7 +44,7 @@ export const router = createHashRouter([
                 element: <ContactUs />
             },
             {
-                path: 'indcar',
+                path: 'indcar/:carIndex',
                 element: <IndCar />
             },
         ],

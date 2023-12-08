@@ -1,36 +1,31 @@
 import React from "react";
-import '../styles/Latest.css';
-import bil1 from "../img/bil1.jpeg"
+import { Link } from "react-router-dom";
+import "../styles/Latest.css";
+import { useNavigate } from "react-router-dom";
+import blocketPng from "../img/blocket.png";
 
 const Latest = () => {
-	return (
-		<section className="latest">
-			<h1 className="latest-h1">
-				Senaste bilarna på lager
-			</h1>
-			<div className="latest-cars">
-				<div className="latest-card">
-					<img src="https://media.pvmagasinet.se/2019/01/Opel-Combo.jpg" alt="" className="latest-img" />
-					<p className="latest-text">Exempelbil 1.8 TFSI</p>
-					<p className="latest-text">120 000 kr</p>
-					<p className="latest-text">2010 - 12000 mil - automat</p>
-				</div>
-				<div className="latest-card">
-					<img src="https://media.pvmagasinet.se/2019/01/Opel-Combo.jpg" alt="" className="latest-img" />
-					<p className="latest-text">Exempelbil 1.8 TFSI</p>
-					<p className="latest-text">120 000 kr</p>
-					<p className="latest-text">2010 - 12000 mil - automat</p>
-				</div>
-				<div className="latest-card">
-					<img src="https://media.pvmagasinet.se/2019/01/Opel-Combo.jpg" alt="" className="latest-img" />
-					<p className="latest-text">Exempelbil 1.8 TFSI</p>
-					<p className="latest-text">120 000 kr</p>
-					<p className="latest-text">2010 - 12000 mil - automat</p>
-				</div>
-			</div>
-				<button className="all-cars-btn">Alla våra bilar</button>
-		</section>
-	)
-}
+  const navigate = useNavigate();
 
-export default Latest
+  // const latestCars = carData.slice(0, 3);
+
+  //  const handleLinkClick = (index) => {
+  // 	window.scrollTo(0, 0);
+  //     navigate(`/indcar/${index}`); // Använd navigate här
+  // };
+
+  return (
+    <section className="latest">
+      <div className="blocket-div">
+        <h1 className="latest-h1">Kolla in våra bilar på:</h1>{" "}
+        <Link to="https://www.blocket.se/butik/webbil" target="_blank">
+          <button className="latest-btn">
+            <img src={blocketPng} alt="blocket png" className="blocket-img" />
+          </button>
+        </Link>
+      </div>
+    </section>
+  );
+};
+
+export default Latest;

@@ -1,84 +1,84 @@
 .welcome {
-	width: 100%;
-	height: 50vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	z-index: 1;
+  width: 100%;
+  height: 58vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 .hero-h4 {
-	font-size: 24px;
+  font-size: 24px;
 }
 .hero-h1 {
-	font-size: 38px;
-	width: 12em;
-	text-align: center;
-	font-family: 'Inter', sans-serif;
+  font-size: 38px;
+  width: 12em;
+  text-align: center;
+  font-family: "Inter", sans-serif;
 }
 .btn-div {
-	width: 20em;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+  width: 20em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .buy-sell-btn {
-	font-size: 16px;
-	padding: 0.75em 1.5em;
-	border-style: none;
-	background-color: #FFC927;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.5s;
-	box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
-	position: relative;
-	width: 130px; /* Anpassa bredden efter dina behov */
-	text-align: center; /* Centrera texten horisontellt */
-  }
-  
-  .buy-sell-btn::after {
-	content: '»';
-	position: absolute;
-	opacity: 0;
-	top: 50%;
-	transform: translateY(-50%);
-	right: 0;
-	transition: 0.5s;
-  }
-  
-  .btn-div {
-	display: flex;
-	justify-content: space-evenly; /* Centrera knapparna horisontellt */
-  }
-  
-  .buy-sell-btn:hover {
-	padding-right: 36px;
-	padding-left: 18px;
-  }
-  
-  .buy-sell-btn:hover::after {
-	opacity: 1;
-	right: 18px;
-  }
-  
-.hero-img {
-	width: 100%;
-	height: 50vh;
-	object-fit: cover;
-	opacity: 0.8;
-	filter: brightness(0.9);
-	z-index: -1;
-	position: absolute;
-}
-.welcome > * {
-	margin: 0.5em 0 0.5em 0;
+  font-size: 16px;
+  padding: 0.75em 1.5em;
+  border-style: none;
+  background-color: #ffc927;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  position: relative;
+  width: 130px; /* Anpassa bredden efter dina behov */
+  text-align: center; /* Centrera texten horisontellt */
 }
 
-@media screen and (max-width: 600px) {
-	.hero-h1 {
-		font-size: 24px;
-	}
-	.hero-h4 {
-		font-size: 18px;
-	}
+.buy-sell-btn::after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  transition: 0.5s;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: space-evenly; /* Centrera knapparna horisontellt */
+}
+
+.buy-sell-btn:hover {
+  padding-right: 36px;
+  padding-left: 18px;
+}
+
+.buy-sell-btn:hover::after {
+  opacity: 1;
+  right: 18px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 58vh;
+  object-fit: cover;
+  opacity: 0.8;
+  filter: brightness(0.9);
+  z-index: -1;
+  position: absolute;
+}
+.welcome > * {
+  margin: 0.5em 0 0.5em 0;
+}
+
+@media screen and (max-width: 680px) {
+  .hero-h1 {
+    font-size: 24px;
+  }
+  .hero-h4 {
+    font-size: 18px;
+  }
 }

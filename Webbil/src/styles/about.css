@@ -1,80 +1,95 @@
 .about {
-	height: auto;
+  height: auto;
 }
 .about-head {
-	height: 25em;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	margin-left: 10em;
+  height: 25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10em;
 }
 .about-span {
-	color: #FFC927;
+  color: #ffc927;
 }
 .about-h1 {
-	color: #ffffff;
-	font-family: 'Inter', sans-serif;
-	font-size: 64px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
 }
 .about-p {
-	color: #ffffff;
-	margin-left: 1em;
+  color: #ffffff;
+  margin-left: 1em;
+  font-size: 20px;
 }
 .about-img {
-	width: 100%;
-	height: 25em;
-	object-fit: cover;
-	filter: brightness(0.7);
-	position: absolute;
-	z-index: -10;
+  width: 100%;
+  height: 25em;
+  object-fit: cover;
+  filter: brightness(0.7);
+  position: absolute;
+  z-index: -10;
+  object-position: center 35%;
 }
 .under-h1 {
-	font-family: 'Inter', sans-serif;
-	font-size: 46px;
-	color: #FFC927;
-	margin-bottom: 1em;
+  font-family: "Inter", sans-serif;
+  font-size: 46px;
+  color: #ffc927;
+  margin-bottom: 1em;
 }
 .under-p {
-	font-size: 18px;
-	max-width: 35em;
-	margin-bottom: 1em;
+  font-size: 18px;
+  max-width: 40em;
+  margin-bottom: 1em;
 }
 .under-head {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4em;
 }
 .fb-link {
-	color: #FFC927;
-	font-size: 48px;
-	transition: all 0.4s;
+  color: #ffc927;
+  font-size: 48px;
+  transition: all 0.4s;
 }
 .fb-link:hover {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 .fb-p {
-	margin-bottom: 1em;
-	margin-top: 2em;
-	font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  font-weight: bold;
 }
 p {
-    word-break: break-all;
-    white-space: normal;
+  word-break: break-word;
+  white-space: normal;
 }
 @media screen and (max-width: 768px) {
-	.about-head {
-		margin-left: 5em; 
+  .about-head {
+    margin-left: 5em;
+  }
+  .about-h1 {
+    font-size: 40px;
+  }
+  .under-h1 {
+    font-size: 36px;
+  }
+  .under-p {
+    font-size: 16px;
+  }
+  .about-head {
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0em;
+  }
 }
-.about-h1 {
-	font-size: 40px;
-}
-}
-
 
 @media screen and (max-width: 480px) {
-	.about-head {
-		margin-left: 2em; 
-}
+  .under-h1 {
+    font-size: 28px;
+  }
 }

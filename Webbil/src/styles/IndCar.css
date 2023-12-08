@@ -5,6 +5,7 @@
 }
 .ind-car-img {
 	width: 40em;
+	max-width: 100%;
 }
 .ind-hero {
 	display: flex;
@@ -29,6 +30,7 @@
 .facts {
 	display: flex;
 	margin-bottom: 2em;
+	flex-wrap: wrap;
 }
 .fact-h3 {
 	font-size: 24px;
@@ -47,7 +49,7 @@
 	margin-right: 0.5em;
 }
 .besk {
-	width: 60vw;
+	width: 70vw;
 }
 .besk-h2 {
 	margin: 2em 0em;
@@ -73,4 +75,24 @@
 	border-radius: 50px;
 	margin-bottom: 2em;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+ .ind-h1 {
+	font-size: 28px;
+ }
+ .ind-p {
+	font-size: 18px;
+ }
+ .ind-intr {
+	font-size: 18px;
+ }
+ .ind-btn {
+	font-size: 16px;
+ }
+}
+@media screen and (max-width: 480px) {
+	.facts {
+		flex-direction: column;
+	}
 }
